@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} + {{ site.title }}</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Spectral:700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <header>
+    <h1><a href="/">crankin</a></h1>
+  </header>
+
+  <section class="main">
+    <article>
+      {{ content | safe }}
+    </article>
+  </section>
+
+  <section class="archive">
+    {% include "archives.njk" %}
+  </section>
+
+  <nav id="mainnav">
+    {% include "blognav.njk" %}
+  </nav>
+
+  <script type="text/javascript">
+  function navLoad() {
+    function toggle() {
+      var el = document.getElementById('mainnav');
+      if (el.className === 'navtop') el.className = 'navinit';
+      else el.className = 'navtop';
+    }
+
+    document.querySelector('#mswitch').addEventListener('click', toggle, false);
+  }
+
+  document.addEventListener('DOMContentLoaded', navLoad, false);
+  </script>
+
+</body>
+</html>

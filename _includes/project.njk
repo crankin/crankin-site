@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} + {{ site.title }}</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Spectral:700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/projects.css">
+</head>
+
+<body>
+<div class="project-wrap">
+<div class="project-sidebar">
+  <header>
+    <h1>Christopher Rankin</h1>
+    <h2>Projects</h2>
+  </header>
+  {% include "projectnav.njk" %}
+</div>
+
+<div class="project-main">
+  <h2>{{ title }}</h2>
+
+  <div id="project-details">
+    <p>{{ launch }}</p>
+    {% if url %}
+    <p><a href="//{{ url }}">{{ url }}</a></p>
+    {% endif %}
+    <p>{{ tech }}</p>
+  </div>
+
+  <div id="proj-desc">
+    {{ content | safe }}
+  </div>
+
+  <ul id="proj-imgs">
+    {% for item in shots %}
+    <li><img src="https://s3.ca-central-1.amazonaws.com/crankin-portfolio/{{ pid }}/{{ item.img }}" alt="{{ item.alt }}"></li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
+</body>
+</html>
