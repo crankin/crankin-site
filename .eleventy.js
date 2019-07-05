@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addLayoutAlias('newproject', 'layouts/newproject.html');
 
   eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('admin');
   //eleventyConfig.addPassthroughCopy('images');
 
   // Get the first `n` elements of a collection.
