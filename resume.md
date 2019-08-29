@@ -7,17 +7,17 @@ title: resume
 
 [crankin@getcrank.in](mailto:crankin@getcrank.in) | 512-297-8463 | portfolio: [getcrank.in](https://getcrank.in)
 
-### Director of Digital Engagement | KLRU-TV, Austin PBS  
+### Director of Digital Engagement | KLRU-TV, Austin PBS
 ### September 2016 - August 2019
 
 Served as strategic lead for all new interactive and digital media projects — exploring new models, determining the right approach, and ensuring that the specific goals were in line with KLRU’s digital strategy. UX expert, information architect, and project manager for all KLRU web properties — klru.org, klru.tv, acltv.com, and local productions such as *Arts in Context*, *Overheard with Evan Smith*, *Decibel*, and *Central Texas Gardener*. Led the in-house development and production team of two web developers. Collaborated across diverse departments on digital projects to create prototypes, define project roadmaps, set station digital project prioritization, guide development strategy, and manage day-to-day implementation. Tested and evaluated projects based on qualitative and quantitative metrics and oversaw the creation of custom reports. Supervised the upkeep and maintenance of the station’s digital platforms, including the website content management system, third-party APIs, and web servers.
 
-### Web Developer | KLRU-TV, Austin PBS  
+### Web Developer | KLRU-TV, Austin PBS
 ### February 2014 - September 2016
 
 Responsible for developing front-end templates and back-end code for station websites. Collaborated as part of a team with the Digital Director, Graphic Designer, and other KLRU staff members to define, design, develop, plan, and launch new web projects in line to support local productions, fundraising campaigns, and educational initiatives. Designed and coded site for long-form video news story about Eastside High. Redesigned website for *Central Texas Gardener*. Maintained websites — including troubleshooting code and database problems — for KLRU and its shows, such as *Austin City Limits*, *Arts in Context*, *Overheard with Evan Smith*, *Central Texas Gardener*, and more. Customized and maintained a variety of CMS platforms. Kept updated on relevant innovations in web video, content management systems, and related topics in order to incorporate best practices and identify opportunities for future development. Collaborated with Interactive Director to help inform station’s digital strategy.
 
-### Web Designer | Whole Foods Market  
+### Web Designer | Whole Foods Market
 ### October 2011 - February 2014
 
 Managed weekly home page and site updates on wholefoodsmarket.com. Designed and coded microsites for special projects and promotions. Designed and developed Facebook pages, social media promotions, and email campaigns. Worked with marketing, public relations, and social media teams to design and integrate companywide promotions and events. Participated in the relaunch of wholefoodsmarket.com that included a full site redesign and the adoption of Drupal for the site architecture and management. Worked with employees in over 300 stores to help them maintain and update content and features for their individual stores.

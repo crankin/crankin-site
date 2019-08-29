@@ -64,7 +64,7 @@ video {
   code,
   pre {
     font-family: monospace;
-    font-size: 1rem; 
+    font-size: 1rem;
     background: rgba(121, 121, 121, 0.05);
     white-space: pre-wrap;}
 
@@ -193,4 +193,25 @@ nav li { margin-bottom: 0.5rem; }
 }
 
 #proj-imgs { list-style: none; }
+
 #proj-imgs li { margin-top: 2rem; }
+
+.resume { margin-left: 1vw; }
+
+.resume h2 { margin-top: 3rem; }
+
+.resume h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+.resume h3:nth-child(3n) {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  }
+
+.resume p { margin: 0.5rem 10vw 1rem 0; }
+
+.resume ul { margin-left: 2rem; }
+
+.resume li { line-height: 1.4; }
