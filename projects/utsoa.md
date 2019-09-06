@@ -7,6 +7,8 @@ tech: interface design, graphic design, PHP, HTML, CSS, Javascript, Flash/Action
 shots:
  - img: 21.jpg
    alt: Home
+ - img: 18.jpg
+   alt: Home (menu option selected)
  - img: 15.jpg
    alt: Program Page
  - img: 12.jpg

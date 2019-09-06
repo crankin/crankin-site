@@ -5,7 +5,7 @@ title: resume
 
 # Christopher Rankin
 
-[crankin@getcrank.in](mailto:crankin@getcrank.in) | 512-297-8463 | portfolio: [getcrank.in](https://getcrank.in)
+contact: [crankin@getcrank.in](mailto:crankin@getcrank.in) | portfolio: [getcrank.in](https://getcrank.in)
 
 ### Director of Digital Engagement | KLRU-TV, Austin PBS
 ### September 2016 - August 2019

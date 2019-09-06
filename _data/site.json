@@ -3,6 +3,7 @@
   "url": "https://getcrank.in",
   "baseurl": "",
   "repo": "",
+  "imgloc": "https://res.cloudinary.com/darnbitpw/image/upload",
   "comments": false,
   "author": {
     "name": "Chris Rankin"

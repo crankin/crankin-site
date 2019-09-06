@@ -4,7 +4,7 @@ pid: truefab
 launch: February 2012
 date: 2012-02-01
 purl: www.truefabricationbicycles.com
-tech: WordPress, HTML, CSS, jQuery, PHP, Flicker API
+tech: WordPress, HTML, CSS, jQuery, PHP, Flickr API
 shots:
  - img: 01.jpg
    alt: Home
@@ -12,6 +12,8 @@ shots:
    alt: About
  - img: 03.jpg
    alt: News/Blog
+ - img: 04.jpg
+   alt: What We Build
  - img: 05.jpg
    alt: Gallery
  - img: 06.jpg

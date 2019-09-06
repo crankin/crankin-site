@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('admin');
-  //eleventyConfig.addPassthroughCopy('images');
+  eleventyConfig.addPassthroughCopy('thumbs');
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {

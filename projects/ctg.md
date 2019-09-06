@@ -1,5 +1,5 @@
 ---
-title: Central Texas Gardener | KLRU
+title: Central Texas Gardener
 pid: ctg
 launch: January 2015
 date: 2015-01-01
