@@ -96,7 +96,7 @@ a:hover {
   margin-bottom: 0;
   }
 
-.project-main p { max-width: 72ch; }
+.project-main p { max-width: 64ch; }
 }
 
 header h1 {
@@ -137,6 +137,8 @@ nav ul {
 
 nav li { margin-bottom: 0.75rem; }
 
+#mnav { columns: 2; }
+
 .wrapper #pnav { display: none; }
 
 .screens {
@@ -162,9 +164,8 @@ nav li { margin-bottom: 0.75rem; }
   }
 
 .thumb a h3 {
-  font-size: 0.9rem;
+  font-size: 0.825rem;
   font-weight: normal;
-  margin-top: auto;
   color: var(--grayish);
   text-decoration: none;
   display: inline;
