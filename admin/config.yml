@@ -18,7 +18,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false}
       - {label: "Long Date", name: "longdate", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-collections:
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Portfolio" # Used in the UI
     folder: "projects" # The path to the folder where the documents are stored
