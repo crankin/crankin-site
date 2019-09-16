@@ -2,16 +2,35 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-media_folder: "images/uploads"
+media_folder: "_site/images/uploads"
+public_folder: "/images/uploads"
+site_url: https://getcrank.in
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    extension: md
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Long Date", name: "longdate", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false}
+      - {label: "Long Date", name: "longdate", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+collections:
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Portfolio" # Used in the UI
+    folder: "projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    extension: md
+    slug: "{{pid}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Launch", name: "launch", widget: "string"}
+      - {label: "Launch Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: false}
+      - {label: "Page ID", name: "pid", widget: "string"}
+      - {label: "Page URL", name: "purl", widget: "string", required: false}
+      - {label: "Tech", name: "tech", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
