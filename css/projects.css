@@ -73,6 +73,13 @@ a:hover {
 #project-details p {
   margin: 0.25rem 0 0 0;
 }
+
+#proj-imgs img {
+  border: 1px solid #ccc;
+  margin: 1rem auto;
+  padding: 4px;
+}
+
 @media screen and (min-width: 480px) {
 .wrapper {
   display: grid;
@@ -175,7 +182,12 @@ nav li { margin-bottom: 0.75rem; }
 
 .thumb a:hover h3 { background: var(--greenish); }
 
-#proj-imgs { list-style: none; }
+#proj-imgs {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
 
 #proj-imgs li { margin-top: 2rem; }
 

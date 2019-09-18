@@ -16,6 +16,7 @@ shots:
    alt: Who We Are
  - img: klru-moving-forward.jpg
    alt: Moving Forward
+mobiles:      
  - img: klru-home-mobile.jpg
    alt: Home (mobile)
  - img: klru-menu-mobile.jpg

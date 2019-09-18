@@ -35,20 +35,24 @@
 
   <ul id="proj-imgs">
     {% for item in shots %}
-    <!-- <li><img src="https://s3.ca-central-1.amazonaws.com/crankin-portfolio/{{ pid }}/{{ item.img }}" alt="{{ item.alt }}"></li> -->
     <li>
-    <!-- <img src="{{ site.imgloc }}/w_300/{{ pid }}/{{ item.img }}"
+    <img src="{{ site.imgloc }}/{{ pid }}/{{ item.img }}"
       alt="{{ item.alt }}"
-      srcset="{{ site.imgloc }}/w_300/{{ pid }}/{{ item.img }} 300w,
-              {{ site.imgloc }}/w_520/{{ pid }}/{{ item.img }} 520w"
-      sizes="(max-width: 320px) 100vw, (max-width: 768px) 60vw, 520px"> -->
-      <img src="{{ site.imgloc }}/{{ pid }}/{{ item.img }}" style="border:1px solid #ccc; margin: 1rem 0; padding: 4px;">
+      srcset="{{ site.imgloc }}/w_480/{{ pid }}/{{ item.img }} 480w,
+              {{ site.imgloc }}/w_640/{{ pid }}/{{ item.img }} 640w,
+              {{ site.imgloc }}/{{ pid }}/{{ item.img }} 800w"
+      sizes="(max-width: 480px) 100vw, (max-width: 720px) 80vw, 800px">
     </li>
-
     {% endfor %}
 
-
+    {% for mo in mobiles %}
+    <li>
+      <img src="{{ site.imgloc }}/{{ pid }}/{{ mo.img }}" alt="{{ mo.alt }}">
+    </li>
+    {% endfor %}
   </ul>
+
+
 </div>
 </div>
 </body>

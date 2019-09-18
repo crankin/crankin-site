@@ -23,7 +23,7 @@
 
 <section class="screens">
   {% for project in collections.projects | reverse %}
-    <div class="thumb"><a href="/projects/{{ project.data.pid }}"><img src="/thumbs/{{ project.data.pid }}.jpg"><h3>{{ project.data.title }}</h3></a></div>
+    <div class="thumb"><a href="/projects/{{ project.data.pid }}"><img src="/thumbs/{{ project.data.pid }}.jpg" alt="screenshot of homepage of {{ project.data.title }} website"><h3>{{ project.data.title }}</h3></a></div>
   {% endfor %}
 </section>
 </div>

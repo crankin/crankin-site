@@ -14,6 +14,7 @@ shots:
    alt: CV/About
  - img: med-contact.jpg
    alt: Contact
+mobiles:   
  - img: med-home-mobile.png
    alt: Home (mobile)
  - img: med-work-mobile.jpg

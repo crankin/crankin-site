@@ -16,6 +16,7 @@ shots:
    alt: Resources
  - img: ctg-800-05.jpg
    alt: About
+mobiles:   
  - img: ctg-320-01.jpg
    alt: Home (mobile)
  - img: ctg-320-02.jpg

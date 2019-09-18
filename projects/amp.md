@@ -14,6 +14,7 @@ shots:
    alt: Museum Day
  - img: amp3-b-about.jpg
    alt: About
+mobiles:   
  - img: amp3-s-home.jpg
    alt: Home (mobile)
  - img: amp3-s-events1.jpg
