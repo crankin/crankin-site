@@ -1,6 +1,6 @@
 :root {
   --greenish: rgb(133,242,82);
-  --grayish: rgb(122,122,122);
+  --grayish: rgb(122,111,100);
   }
 
 html {
@@ -46,7 +46,6 @@ p {
 a {
   color: rgb(0,0,0);
   text-decoration: none;
-  /* font-family: 'Sorts Mill Goudy', serif; */
   font-family: 'Merriweather Sans', sans-serif;
   border-bottom: 1px solid black;
   }
