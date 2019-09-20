@@ -6,6 +6,32 @@
   <title>{{ title }} + {{ site.title }}</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,800|Merriweather:400,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/projects.css">
+  <style media="print" rel="stylesheet">
+  .wrapper {
+    display: block;
+    margin: 0;
+    }
+  .intro { display: none; }
+  .resume { margin: 0.5in 0.25in 0.5in 0.5in; }
+  .resume h1 {
+    margin-top: 0;
+    font-size: 1.75rem;
+    }
+  .resume h2 {
+    margin-top: 0.25in;
+    }
+  .resume h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+  .resume h3:nth-child(3n) {
+    margin-top: 0.25in;
+    margin-bottom: 0;
+    }
+  .resume p { margin: 0.1in 0 0.25in; }
+  .resume ul { margin: 0.1in 0 0.25in; }
+  .resume li { line-height: 1.4; }
+  </style>
 </head>
 
 <body>
@@ -13,7 +39,7 @@
 <section class="intro">
   <header>
     <h1>{{ site.title }}</h1>
-    <h2>{{ title }}</h2>
+    <h2>r&eacute;sum&eacute;</h2>
   </header>
 
   {% include "projectnav.njk" %}

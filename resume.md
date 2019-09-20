@@ -46,7 +46,8 @@ Managed all new member campaigns and renewal membership requests. Oversaw member
 
 * HTML, CSS, Sass, Stylus
 * JavaScript, Node.js, Express, jQuery, PHP
-* WordPress, Indexhibit, Stacey, Perch, Jekyll, Eleventy, Gatsby, Middleman
+* WordPress, Indexhibit, Stacey, Perch 
+* Jekyll, Eleventy, Gatsby, Middleman
 * Contentful, Digital Ocean, Netlify
 * Git, Github, Grunt, Gulp, Vim
 * APIs, MySQL, SQLite, CouchDB, MongoDB, GraphQL

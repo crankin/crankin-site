@@ -192,11 +192,23 @@ nav li { margin-bottom: 0.75rem; }
 
 .resume { margin-left: 1vw; }
 
-.resume h2 { margin-top: 3rem; }
+.resume h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 2rem;
+  }
+
+.resume h2 {
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  }
 
 .resume h3 {
   margin-top: 0;
   margin-bottom: 0;
+  color: rgb(94,111,117);
+  font-weight: 400;
   }
 
 .resume h3:nth-child(3n) {
@@ -206,6 +218,6 @@ nav li { margin-bottom: 0.75rem; }
 
 .resume p { margin: 0.5rem 10vw 1rem 0; }
 
-.resume ul { margin-left: 2rem; }
+.resume ul { margin: 0.5rem 10vw 1rem 2rem; }
 
 .resume li { line-height: 1.4; }
