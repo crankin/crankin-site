@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'read, watch, listen 2'
+date: 2020-03-30T05:20:38.204Z
+longdate: 'March 30, 2020'
+---
+**[Speed Bumps: Why It’s So Hard to Catch Cheaters in Track and Field — ProPublica](https://www.propublica.org/article/speed-bumps-why-its-so-hard-to-catch-cheaters-in-track-and-field)** — Ever since reading about the rampant blood doping during the cross-country skiing at the 2002 Olympics, I’ve been fascinated about doping in sports. I know it’s not legal and probably bad for the long-term health of the athletes but it’s amazing what lengths people will go to to win a sports competition.
+
+**[How Origami Is Informing Structural Engineering - CityLab](https://www.citylab.com/life/2015/09/how-origami-is-informing-structural-engineering/405442/)** — This is a very cool marriage of an ancient Japanese art form and cutting-edge engineering. This article is from 2015 and I know there have been even more advances in origami-based engineering, robotics, and space exploration. 
+
+**[62 People Now Own As Much Wealth As Half Of The World’s Population](https://www.buzzfeednews.com/article/jamesball/for-whoever-has-to-him-will-be-given)** — Just a reminder that we’ve been talking about this bullshit for at least the last 4 years and nothing has changed. And something has to change soon. Capitalism harms too many people to be able to continue on its current course. (Plus this article has some cool interactive graphs as a bonus.)
+
+**[Pirate Bay Founder: ‘I Have Given Up’ - VICE](https://www.vice.com/en_us/article/qkjpbd/pirate-bay-founder-peter-sunde-i-have-given-up)** — A 2015 interview with Peter Sunde where he discusses the problems with the centralization of the internet, how capitalism is ruining society (and therefore also ruining the internet), and how too many people don’t care enough to fight against the continuing corporate control and user tracking as long as they continue to get their free services and social media sites. *I can’t say I’ve done anything about it either but seeing how many articles from 4-5 years ago about how the internet is broken that I’ve saved makes me realize that we’ve all been talking about these problems for a while and there have been very few reforms or changes on how the big internet and social media companies do business.*
+
+**[This Trumpzilla Cartoon Won’t Fix a Thing | David Rees](https://thebaffler.com/latest/david-rees-trumpzilla)** — David Rees describes an incredible political cartoon of Trump (after he won Super Tuesday). And then tells us why a political cartoon isn’t going to change anything and we need to get out and talk to people if we don’t want Trump to be President. Classic.
+
+**[An Afternoon With the World’s Most Powerful Rocket Booster - VICE](https://www.vice.com/en_us/article/gv5jzw/an-afternoon-with-the-worlds-most-powerful-rocket-booster)** — I’m no rocket scientist but rocket testing is very cool. Plus, we drove by this test site in Utah on our way to the Golden Spike National Historic Park and the long, winding, bumpy drive to see Robert Smithson’s Spiral Jetty.
+
+**[Networked Disruption. An interview with Tatiana Bazzichelli – We Make Money Not Art](https://we-make-money-not-art.com/networked_disruption/)** — I’m disappointed that I haven’t followed Bazzichelli since I assume I read this in 2015. I will from now on and also I’m planning on learning more about the [Disruption Network Lab](http://www.disruptionlab.org/), her curatorial project on art, hacktivism, and disruption. I enjoyed this interview because she calls bullshit on tech companies using terms like hacker and disruption and I love seeing the photos of the install of the exhibition she curated, *Networked Disruption*. 
