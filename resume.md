@@ -68,6 +68,6 @@ Honors Thesis: *Ethics and Aesthetics in the Self-Definition of Black Political 
 * Writer and Teacher, Picasso, Braque, and the Dawn of Cubism, Barnes & Noble University (powered.com), 2001-2002
 * Teacher, Introduction to Flash and Design for Non-Designers, Barnes & Noble University (powered.com), 2001-2002
 * Speaker, Websites that Work: Building and Quantifying Your Success, State of the Arts Conference, 2013 & 2015
-* Speaker, Websites that Work Webinar, Texas Commission on the Arts, April 2015
+* Speaker, Websites that Work Webinar, Texas Commission on the Arts, April 2015, [beginners](https://vimeo.com/125155511) and [advanced](https://vimeo.com/125155510)
 * Speaker, How to Get A Website, Artist INC Training Program, City of Austin, October 2015
 * Newsletter Editor & Steering Committee Member, Old West Austin Neighborhood Association (OWANA), 2009-2011 & 2014-2018
