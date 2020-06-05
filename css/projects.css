@@ -106,10 +106,11 @@ a:hover {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 1;
   color: rgb(94,111,117);
+  margin-bottom: 0.75rem;
   }
 
 header h2 {

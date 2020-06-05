@@ -14,19 +14,21 @@
     <h1><a href="/">crankin</a></h1>
   </header>
 
-  <section class="main">
-    <article>
+<section class="biggie">
+    <article class="main">
       {{ content | safe }}
     </article>
-  </section>
 
-  <section class="archive">
     {% include "archives.njk" %}
-  </section>
 
   <nav id="mainnav">
     {% include "blognav.njk" %}
   </nav>
+
+  <footer id="allnav">
+    {% include "allblognav.njk" %}
+  </footer>
+</div>
 
   <script type="text/javascript">
   function navLoad() {
@@ -37,6 +39,14 @@
     }
 
     document.querySelector('#mswitch').addEventListener('click', toggle, false);
+
+    function toggleall() {
+      var el = document.getElementById('allnav');
+      if (el.className === 'navtop') el.className = 'navinit';
+      else el.className = 'navtop';
+    }
+
+    document.querySelector('#allposts').addEventListener('click', toggleall, false);
   }
 
   document.addEventListener('DOMContentLoaded', navLoad, false);

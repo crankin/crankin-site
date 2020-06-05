@@ -1,12 +1,13 @@
 {
-  "title": "Christopher Rankin",
+  "title": "CRANKIN",
+  "propername" : "Christopher Rankin",
   "url": "https://getcrank.in",
   "baseurl": "",
   "repo": "",
   "imgloc": "https://res.cloudinary.com/darnbitpw/image/upload",
   "comments": false,
   "author": {
-    "name": "Chris Rankin"
+    "name": "Christopher Rankin"
   },
   "og_locale": "en_US"
 }
