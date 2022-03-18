@@ -5,7 +5,12 @@ title: r&eacute;sum&eacute
 
 # Christopher Rankin
 
-contact: [crankin@getcrank.in](mailto:crankin@getcrank.in) | portfolio: [getcrank.in](https://getcrank.in)
+contact: [crankin@getcrank.in](mailto:crankin@getcrank.in) | portfolio: [getcrank.in/projects](https://getcrank.in/projects)
+
+### Digital Strategy Manager | College of Liberal Arts, The University of  Texas at Austin
+### April 2020 - current
+
+Develops, executes, and maintains content strategy for digital properties including the College homepage, main college site, and department and unit sites, as needed. Responsible for planning and implementing a college-wide website redesign. Leads a small, collaborative working group of developers, designers, and project managers from different departments as part of the redesign project. Developed site architecture for main college website that reorganizes public-facing content with a focus on specific audiences instead of the current organization based on office structure. Prototypes, designs, and codes the templates, blocks, and user interface elements for the new college CMS developed in-house. Helps train and manage student workers tasked with the website content migration. Conducts user interviews, surveys, and usability testing. Gathers, audits, and analyzes existing content. Uses analytics to provide successful benchmarking, assessment, and reporting. Provides creative direction for designers to ensure consistent look and feel and a focus on user experience for all public-facing websites at the college. Work with stakeholders and content managers to ensure web projects support the vision and mission of the college and university.
 
 ### Director of Digital Engagement | KLRU-TV, Austin PBS
 ### September 2016 - August 2019
@@ -44,13 +49,13 @@ Managed all new member campaigns and renewal membership requests. Oversaw member
 
 ## tools
 
-* HTML, CSS, Sass, Stylus
+* HTML, CSS, Sass
 * JavaScript, Node.js, Express, jQuery, PHP
-* Eleventy, WordPress, Jekyll, Gatsby, Middleman, Perch, Stacey, Indexhibit
+* Eleventy, WordPress, Jekyll, Gatsby, Perch, Stacey, Indexhibit
 * Contentful, Digital Ocean, Netlify
 * Git, Github, Grunt, Gulp, Vim
-* APIs, MySQL, SQLite, GraphQL, MongoDB,
-* Photoshop, Illustrator, Sketch, Figma, InVision Studio, Final Cut Pro
+* APIs, MySQL, SQLite, GraphQL, MongoDB
+* Photoshop, Illustrator, Sketch, Figma
 
 ## education
 

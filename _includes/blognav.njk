@@ -1,17 +1,15 @@
-<p><a href="#" id="mswitch">menu</a></p>
-<ul class="navpost blognav">
-  {% for post in collections.posts | reverse | head(3) %}
+<ul class="navpost">
+  {% for post in collections.posts | reverse %}
   <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
   {% endfor %}
-  <li><a href="#" id="allposts">all posts</a></li>
 </ul>
 
-<ul class="navpost">
+<ul class="blognav">
   <li><a href="/projects">projects</a></li>
   <li><a href="/resume">r&eacute;sum&eacute;</a></li>
   <li><a href="mailto:crankin@getcrank.in">email</a></li>
-  <li><a href="http://twitter.com/_crankin_/">twitter</a></li>
-  <li><a href="https://www.are.na/christopher-rankin">are.na</a></li>
-  <li><a href="http://pinboard.in/u:crankin/">pinboard</a></li>
-  <li><a href="http://github.com/crankin/">github</a></li>
+  <li><a href="//twitter.com/_crankin_/">twitter</a></li>
+  <li><a href="//www.are.na/christopher-rankin">are.na</a></li>
+  <li><a href="//pinboard.in/u:crankin/">pinboard</a></li>
+  <li><a href="//github.com/crankin/">github</a></li>
 </ul>

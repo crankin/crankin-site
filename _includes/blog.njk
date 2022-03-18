@@ -19,38 +19,11 @@
       {{ content | safe }}
     </article>
 
-    {% include "archives.njk" %}
 
   <nav id="mainnav">
     {% include "blognav.njk" %}
   </nav>
-
-  <footer id="allnav">
-    {% include "allblognav.njk" %}
-  </footer>
-</div>
-
-  <script type="text/javascript">
-  function navLoad() {
-    function toggle() {
-      var el = document.getElementById('mainnav');
-      if (el.className === 'navtop') el.className = 'navinit';
-      else el.className = 'navtop';
-    }
-
-    document.querySelector('#mswitch').addEventListener('click', toggle, false);
-
-    function toggleall() {
-      var el = document.getElementById('allnav');
-      if (el.className === 'navtop') el.className = 'navinit';
-      else el.className = 'navtop';
-    }
-
-    document.querySelector('#allposts').addEventListener('click', toggleall, false);
-  }
-
-  document.addEventListener('DOMContentLoaded', navLoad, false);
-  </script>
+</section>
 
 </body>
 </html>

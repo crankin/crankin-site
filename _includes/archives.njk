@@ -1,7 +1,0 @@
-{% for post in collections.posts %}
-  <article class="archive">
-    <h2>{{ post.data.title }}</h2>
-    {{ post.templateContent | safe }}
-    <p class="dateline">{{ post.data.longdate }}</p>
-  </article>
-{% endfor %}
