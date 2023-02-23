@@ -1,59 +1,33 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ title }} + {{ site.title }}</title>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,800|Merriweather:400,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/projects.css">
-</head>
-
-<body>
-<div class="project-wrap">
-<div class="project-sidebar">
-  <header>
-    <h1>Christopher Rankin</h1>
-    <h2>Projects</h2>
-  </header>
-  {% include "projectnav.njk" %}
-</div>
-
+---
+layout: page.njk
+---
 <div class="project-main">
   <h2>{{ title }}</h2>
 
-  <div id="project-details">
-    <p>{{ launch }}</p>
-    {% if url %}
-    <p><a href="//{{ url }}">{{ url }}</a></p>
+  <ul id="proj-details">
+    <li>{{ launch }}</li>
+    {% if purl %}
+    <li><a href="//{{ purl }}">{{ purl }}</a></li>
     {% endif %}
-    <p>{{ tech }}</p>
-  </div>
+    <li>{{ tech }}</li>
+  </ul>
 
   <div id="proj-desc">
     {{ content | safe }}
   </div>
 
-  <ul id="proj-imgs">
+  <div id="proj-imgs">
     {% for item in shots %}
-    <li>
     <img src="{{ site.imgloc }}/{{ pid }}/{{ item.img }}"
       alt="{{ item.alt }}"
       srcset="{{ site.imgloc }}/w_480/{{ pid }}/{{ item.img }} 480w,
               {{ site.imgloc }}/w_640/{{ pid }}/{{ item.img }} 640w,
               {{ site.imgloc }}/{{ pid }}/{{ item.img }} 800w"
       sizes="(max-width: 480px) 100vw, (max-width: 960px) 640px, 800px">
-    </li>
     {% endfor %}
 
     {% for mo in mobiles %}
-    <li>
       <img src="{{ site.imgloc }}/{{ pid }}/{{ mo.img }}" alt="{{ mo.alt }}">
-    </li>
     {% endfor %}
-  </ul>
-
-
+  </div>
 </div>
-</div>
-</body>
-</html>

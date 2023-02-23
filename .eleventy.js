@@ -7,9 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy('css');
-  eleventyConfig.addPassthroughCopy('admin');
   eleventyConfig.addPassthroughCopy('thumbs');
-  // eleventyConfig.addPassthroughCopy('images');
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
@@ -21,8 +19,8 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: "./",      // Equivalent to Jekyll's source property
-      output: "./_site" // Equivalent to Jekyll's destination property
+      input: "./",
+      output: "./_site"
     },
     passthroughFileCopy: true
   };

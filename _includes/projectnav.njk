@@ -1,27 +1,5 @@
-<nav>
-  <ul id="pnav">
-    <li><a href="/projects/medesign">Marc English</a></li>
-    <li><a href="/projects/klru">KLRU-TV</a></li>
-    <li><a href="/projects/via313">Via 313</a></li>
-    <li><a href="/projects/eastside">An Eastside Education</a></li>
-    <li><a href="/projects/ctg">Central Texas Gardener</a></li>
-    <li><a href="/projects/amp">Austin Museum Partnership</a></li>
-    <li><a href="/projects/casa">Casa Montessori</a></li>
-    <li><a href="/projects/truefab">True Fabrication</a></li>
-    <li><a href="/projects/relief">Fire Relief</a></li>
-    <li><a href="/projects/wholefoods">Whole Foods Market</a></li>
-    <li><a href="/projects/mark">Mark Skateboards</a></li>
-    <li><a href="/projects/utsoa">UTSOA</a></li>
-  </ul>
-
-  <ul id="mnav">
-    <li><a href="/projects">projects</a></li>
-    <li><a href="/resume">r&eacute;sum&eacute;</a></li>
-    <li><a href="/">blog</a></li>
-    <li><a href="mailto:crankin@getcrank.in">email</a></li>
-    <li><a href="https://www.are.na/christopher-rankin">are.na</a></li>
-    <li><a href="http://pinboard.in/u:crankin/">pinboard</a></li>
-    <li><a href="http://twitter.com/_crankin_/">twitter</a></li>
-    <li><a href="http://github.com/crankin/">github</a></li>
-  </ul>
-</nav>
+<ul id="pnav">
+  {% for project in collections.projects | reverse %}
+    <li><a href="/projects/{{ project.data.pid }}">{{ project.data.title }}</a></li>
+  {% endfor %}
+</ul>

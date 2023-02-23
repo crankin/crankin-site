@@ -1,6 +1,6 @@
 ---
-title: The University of Texas at Austin School of Architecture (UTSOA)
-launch: 2006; redesigned 2007 and 2010
+title: UT School of Architecture (UTSOA)
+launch: 2006, redesign 2007, redesign 2010
 date: 2006-09-01
 pid: utsoa
 tech: interface design, graphic design, PHP, HTML, CSS, Javascript, Flash/Actionscript, database design and development, site architecture, CodeIgnitor, ExpressionEngine, CakePHP

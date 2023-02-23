@@ -1,0 +1,14 @@
+---
+layout: default.njk
+---
+<main class="wrapper-home">
+<div class="intro">
+  {{ content | safe }}
+</div>
+
+{% for project in collections.projects | reverse %}
+<div class="thumb">
+  <a href="/projects/{{ project.data.pid }}"><img src="/thumbs/{{ project.data.pid }}.jpg" alt="screenshot of homepage of {{ project.data.title }} website"><p>{{ project.data.title }}</p></a>
+</div>
+{% endfor %}
+</main>

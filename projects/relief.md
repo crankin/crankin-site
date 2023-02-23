@@ -1,7 +1,7 @@
 ---
 title: Fire Relief, The Concert for Central Texas
 pid: relief
-launch: 2011
+launch: September 2011
 date: 2011-09-01
 tech: HTML, CSS, jQuery, 1140 CSS Grid
 shots:

@@ -1,0 +1,23 @@
+---
+layout: default.njk
+---
+<header>
+  <h1>{{ site.title }}</h1>
+  <nav>
+  <ul>
+    <li><a href="/" class="current">projects</a></li>
+    <li><a href="/resume">r&eacute;sum&eacute;</a></li>
+    <li><a href="mailto:crankin@getcrank.in">email</a></li>
+  </ul>
+  </nav>
+</header>
+
+<main>
+
+{{ content | safe }}
+
+</main>
+
+<footer>
+{% include "projectnav.njk" %}
+</footer>
