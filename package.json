@@ -1,18 +1,15 @@
 {
-  "name": "crankinnew",
+  "name": "crankin-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "start": "eleventy --serve"
   },
-  "author": "",
+  "author": "Christopher Rankin",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7"
-  },
-  "dependencies": {
-    "@11ty/eleventy-img": "^2.0.1"
+    "@11ty/eleventy": "^3.1.6"
   }
 }
