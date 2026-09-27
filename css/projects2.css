@@ -50,6 +50,15 @@ img, embed, iframe, object, audio, video {
   max-width: 100%;
   }
 
+/* <picture> wrappers from the image plugin shouldn't affect layout */
+picture {
+  display: contents;
+  }
+
+picture source {
+  display: none;
+  }
+
 code, pre {
   font-family: monospace;
   font-size: 1rem;
@@ -129,6 +138,7 @@ a:hover {
 .thumb img {
   border: 1px solid #bababa;
   aspect-ratio: 3/2;
+  object-fit: cover; /* crop, don't squash, thumbs that aren't exactly 3:2 */
   width: 18.75rem;
   /* transition: opacity .5s ease-in, visibility .5s, width .4s ease-in; */
   }
@@ -228,16 +238,28 @@ footer {
   }
 
 #proj-imgs {
-  list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 4rem;
   margin-top: 1rem;
   padding-top: 4rem;
   border-top: 1px solid var(--brown);
   }
 
+/* desktop and mobile shots each start on their own line */
+.proj-shots,
+.proj-mobiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* don't stretch images to the tallest in the row */
+  gap: 4rem;
+  }
+
+/* padding and border sit outside the image so it shows at full size,
+   while still shrinking to fit narrow screens */
 #proj-imgs img {
+  box-sizing: content-box;
+  max-width: calc(100% - 2rem - 2px);
   border: 1px solid #ccc;
   background: rgb(255,255,255);
   padding: 1rem;

@@ -5,16 +5,11 @@ launch: May 2011
 date: 2011-03-01
 tech: interactive design, HTML, CSS, jQuery, Stacey CMS, Big Cartel
 shots:
- - img: 01.jpg
-   alt: Home
- - img: 02.jpg
-   alt: All Boards
- - img: 03.jpg
-   alt: Individual Board Profile
- - img: 04.jpg
-   alt: Big Cartel Ordering
- - img: 05.jpg
-   alt: Contribute Your Mark
+  01.jpg: Home
+  02.jpg: All Boards
+  03.jpg: Individual Board Profile
+  04.jpg: Big Cartel Ordering
+  05.jpg: Contribute Your Mark
 ---
 Mark Skateboards was a small skateboard company in Austin started by local skater and former high school principal, Mark Gobble. They focused on designing "limited-edition skateboard decks for the discriminating skater and collector." The decks were hand silk-screened and manufactured from sustainable wood.
 

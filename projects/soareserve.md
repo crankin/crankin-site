@@ -5,15 +5,10 @@ date: 2007-08-01
 pid: soareserve
 tech: interface design, graphic design, HTML, CSS, Javascript, AJAX, PHP
 shots:
- - img: reserve1.png
-   alt: Image 1
- - img: reserve2.png
-   alt: Image 2
- - img: reserve3.png
-   alt: Image 3
- - img: reserve4.png
-   alt: Image 4
- - img: reserve5.png
-   alt: Image 5
+  reserve1.png: Image 1
+  reserve2.png: Image 2
+  reserve3.png: Image 3
+  reserve4.png: Image 4
+  reserve5.png: Image 5
 ---
 The UTSOA Reservation System allows faculty, students, and staff to make reservations for computer equipment, production facilities, and meeting rooms in the school.

@@ -17,17 +17,21 @@ layout: page.njk
   </div>
 
   <div id="proj-imgs">
-    {% for item in shots %}
-    <img src="{{ site.imgloc }}/{{ pid }}/{{ item.img }}"
-      alt="{{ item.alt }}"
-      srcset="{{ site.imgloc }}/w_480/{{ pid }}/{{ item.img }} 480w,
-              {{ site.imgloc }}/w_640/{{ pid }}/{{ item.img }} 640w,
-              {{ site.imgloc }}/{{ pid }}/{{ item.img }} 800w"
-      sizes="(max-width: 480px) 100vw, (max-width: 960px) 640px, 800px">
-    {% endfor %}
+    <div class="proj-shots">
+      {% for file, alt in shots %}
+      <img src="/images/{{ pid }}/{{ file }}" alt="{{ alt }}"
+        eleventy:widths="480,800,auto"
+        sizes="(min-width: 40rem) 85vw, 94vw"
+        {% if loop.first %}loading="eager"{% endif %}>
+      {% endfor %}
+    </div>
 
-    {% for mo in mobiles %}
-      <img src="{{ site.imgloc }}/{{ pid }}/{{ mo.img }}" alt="{{ mo.alt }}">
-    {% endfor %}
+    {% if mobiles %}
+    <div class="proj-mobiles">
+      {% for file, alt in mobiles %}
+      <img src="/images/{{ pid }}/{{ file }}" alt="{{ alt }}">
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </div>

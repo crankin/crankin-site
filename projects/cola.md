@@ -6,25 +6,16 @@ date: 2021-09-01
 purl: liberalarts.utexas.edu
 tech: project management, information architecture, content management, template development, UI/UX, HTML, CSS/SCSS, grapes.js, documentation, training, support lead
 shots:
- - img: cola-home.jpg
-   alt: Home
- - img: cola-menu.jpg
-   alt: Menu
- - img: cola-page1.jpg
-   alt: Page 1
- - img: cola-page2.jpg
-   alt: Page 2
- - img: cola-page3.jpg
-   alt: Page 3
-mobiles:      
- - img: cola-mobile-home.jpg
-   alt: Home (mobile)
- - img: cola-mobile-menu.jpg
-   alt: Menu (mobile)
- - img: cola-mobile-page1.jpg
-   alt: Page 1 (mobile)
- - img: cola-mobile-page2.jpg
-   alt: Page 2 (mobile)
+  cola-home.jpg: Home
+  cola-menu.jpg: Menu
+  cola-page1.jpg: Page 1
+  cola-page2.jpg: Page 2
+  cola-page3.jpg: Page 3
+mobiles:
+  cola-mobile-home.jpg: Home (mobile)
+  cola-mobile-menu.jpg: Menu (mobile)
+  cola-mobile-page1.jpg: Page 1 (mobile)
+  cola-mobile-page2.jpg: Page 2 (mobile)
 ---
 The College of Liberal Arts at the University of Texas at Austin is the largest college with over 10,000 students and 800 faculty. The online presence of the College includes the main college website of the Dean’s office and 95 separate sites for the departments, centers, and research programs.
 

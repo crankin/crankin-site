@@ -5,12 +5,9 @@ date: 2011-01-01
 pid: soaevents
 tech: interface design, HTML5, CSS, jQuery, Javascript
 shots:
- - img: utsoa_events1.png
-   alt: Image 1
- - img: utsoa_events2.png
-   alt: Image 2
- - img: utsoa_events3.png
-   alt: Image 3
+  utsoa_events1.png: Image 1
+  utsoa_events2.png: Image 2
+  utsoa_events3.png: Image 3
 ---
 This single page site is an interactive interpretation of the UTSOA spring 2011 lectures and exhibitions poster. The events committee tasked me with developing and coding a site that could be the one-stop source for information on the lectures and the archive of the video of each event while using the format and layout of the printed poster as the foundation for the web design.
 

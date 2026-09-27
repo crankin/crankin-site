@@ -6,19 +6,13 @@ date: 2019-08-01
 purl: marcenglish.design
 tech: HTML, CSS, JavaScript, Eleventy, Netlify
 shots:
- - img: med-home.jpg
-   alt: Home
- - img: med-work.jpg
-   alt: Work
- - img: med-cv.jpg
-   alt: CV/About
- - img: med-contact.jpg
-   alt: Contact
-mobiles:   
- - img: med-home-mobile.png
-   alt: Home (mobile)
- - img: med-work-mobile.jpg
-   alt: Work (mobile)
+  med-home.jpg: Home
+  med-work.jpg: Work
+  med-cv.jpg: CV/About
+  med-contact.jpg: Contact
+mobiles:
+  med-home-mobile.png: Home (mobile)
+  med-work-mobile.jpg: Work (mobile)
 ---
 My friend, world-class graphic designer, Marc English needed a new portfolio that focused on more recent projects and updated case studies and images. Marc designed the site taking the approach that site templates should have a minimal design that would let the portfolio work speak for itself.  To reflect the area’s of Marc’s best-known work and expertise, the design of the site incorporated many elements — colors, fonts, columns — from print design. Marc handed off the site and page designs and I then converted the mockups into HTML and CSS.
 

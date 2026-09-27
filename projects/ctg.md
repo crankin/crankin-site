@@ -6,27 +6,17 @@ date: 2015-01-01
 purl: www.klru.org/ctg
 tech: interactive design, interface design, WordPress, PHP, HTML, CSS, JavaScript
 shots:
- - img: ctg-800-01.jpg
-   alt: Home
- - img: ctg-800-02.jpg
-   alt: Epiodes
- - img: ctg-800-03.jpg
-   alt: Blog
- - img: ctg-800-04.jpg
-   alt: Resources
- - img: ctg-800-05.jpg
-   alt: About
-mobiles:   
- - img: ctg-320-01.jpg
-   alt: Home (mobile)
- - img: ctg-320-02.jpg
-   alt: Epiodes (mobile)
- - img: ctg-320-03.jpg
-   alt: Blog (mobile)
- - img: ctg-320-04.jpg
-   alt: Resources (mobile)
- - img: ctg-320-05.jpg
-   alt: About (mobile)
+  ctg-800-01.jpg: Home
+  ctg-800-02.jpg: Epiodes
+  ctg-800-03.jpg: Blog
+  ctg-800-04.jpg: Resources
+  ctg-800-05.jpg: About
+mobiles:
+  ctg-320-01.jpg: Home (mobile)
+  ctg-320-02.jpg: Epiodes (mobile)
+  ctg-320-03.jpg: Blog (mobile)
+  ctg-320-04.jpg: Resources (mobile)
+  ctg-320-05.jpg: About (mobile)
 ---
 Central Texas Gardener is one of KLRU-TV's long-running local productions. The show's website contains an archive of past episodes, gardening and plant resources, and a popular gardening blog maintained by show producer, Linda Lehmusvirta. Prior to the redesign, the website was showing its age. The site and blog ran on separate, outdated WordPress installs and the templates were designed to old standards making video clips and photos appear much too small when viewed on modern-day browsers.
 

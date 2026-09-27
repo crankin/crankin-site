@@ -6,27 +6,17 @@ date: 2018-06-01
 purl: www.klru.org
 tech: project management, prototyping, UI/UX, HTML, CSS/SCSS, JavaScript, Node, Express, Handlebars, Contentful
 shots:
- - img: klru-home.jpg
-   alt: Home
- - img: klru-schedule.jpg
-   alt: Schedule
- - img: klru-donate.jpg
-   alt: Donate
- - img: klru-landing.jpg
-   alt: Who We Are
- - img: klru-moving-forward.jpg
-   alt: Moving Forward
-mobiles:      
- - img: klru-home-mobile.jpg
-   alt: Home (mobile)
- - img: klru-menu-mobile.jpg
-   alt: Nav Menu (mobile)
- - img: klru-schedule-mobile.jpg
-   alt: Schedule (mobile)
- - img: klru-donate-mobile.jpg
-   alt: Donate (mobile)
- - img: klru-landing-mobile.jpg
-   alt: Who We Are (mobile)      
+  klru-home.jpg: Home
+  klru-schedule.jpg: Schedule
+  klru-donate.jpg: Donate
+  klru-landing.jpg: Who We Are
+  klru-moving-forward.jpg: Moving Forward
+mobiles:
+  klru-home-mobile.jpg: Home (mobile)
+  klru-menu-mobile.jpg: Nav Menu (mobile)
+  klru-schedule-mobile.jpg: Schedule (mobile)
+  klru-donate-mobile.jpg: Donate (mobile)
+  klru-landing-mobile.jpg: Who We Are (mobile)
 ---
 The main website for KLRU-TV, Austin PBS, is where the station communicates information about upcoming community events and tapings, manages a growing online donation and membership program, and provides schedule details including detailed show and episode information for each of its four TV channels. The website is a critical point of communication for KLRU but the web team and the site editors were saddled with an increasing amount of technical debt in managing a six year-old site. The need to use multiple workarounds and fix frequent bugs on the pages meant that the site’s managers couldn’t schedule time to make substantive changes and that the site’s visitors struggled to find the information they were looking for.
 

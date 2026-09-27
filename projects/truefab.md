@@ -6,18 +6,12 @@ date: 2012-02-01
 purl: www.truefabricationbicycles.com
 tech: WordPress, HTML, CSS, jQuery, PHP, Flickr API
 shots:
- - img: 01.jpg
-   alt: Home
- - img: 02.jpg
-   alt: About
- - img: 03.jpg
-   alt: News/Blog
- - img: 04.jpg
-   alt: What We Build
- - img: 05.jpg
-   alt: Gallery
- - img: 06.jpg
-   alt: Ordering
+  01.jpg: Home
+  02.jpg: About
+  03.jpg: News/Blog
+  04.jpg: What We Build
+  05.jpg: Gallery
+  06.jpg: Ordering
 ---
 True Fabrication Bicycles is an Austin-based hand-built custom bicycle shop. After five years in business, the three partners decided to update their website to better reflect their building experience and showcase their bicycles. They wanted to both target new business and be able highlight their bicycles during and after participating in national and regional conferences and competitions.
 

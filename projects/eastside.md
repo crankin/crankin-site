@@ -6,22 +6,15 @@ date: 2015-06-01
 purl: www.klru.org/eastside
 tech: interface design, HTML, CSS, JavaScript, Jekyll
 shots:
- - img: aee-800-01.jpg
-   alt: Home
- - img: aee-800-02.jpg
-   alt: Page
- - img: aee-800-03.jpg
-   alt: Chapter Title
- - img: aee-800-04.jpg
-   alt: Navigation
- - img: aee-320-01.jpg
-   alt: Home
- - img: aee-320-02.jpg
-   alt: Page
- - img: aee-320-03.jpg
-   alt: Chapter Title
- - img: aee-320-04.jpg
-   alt: Navigation
+  aee-800-01.jpg: Home
+  aee-800-02.jpg: Page
+  aee-800-03.jpg: Chapter Title
+  aee-800-04.jpg: Navigation
+mobiles:
+  aee-320-01.jpg: Home (mobile)
+  aee-320-02.jpg: Page (mobile)
+  aee-320-03.jpg: Chapter Title (mobile)
+  aee-320-04.jpg: Navigation (mobile)
 ---
 An Eastside Education is a documentary project that tells the story of Austin’s Eastside Memorial High School's struggles to maintain accountability standards. The seven-part video documentary series tells the story of one semester as teachers, students, parents, and administrators fight to prevent their school’s closure.  
 

@@ -5,12 +5,9 @@ date: 2003-07-01
 pid: artonart
 tech: interface design, graphic design, Flash/Actionscript, HTML, CSS, ColdFusion, database design and development
 shots:
- - img: artonart1.png
-   alt: Image 1
- - img: artonart2.png
-   alt: Image 2
- - img: artonart3.png
-   alt: Image 3
+  artonart1.png: Image 1
+  artonart2.png: Image 2
+  artonart3.png: Image 3
 ---
 artonart.com is a calendar covering art and cultural events throughout the state of Texas. The calendar is searchable by date, location, type of event, type of organization, individual organization name, and by a regional map. The site also offers trip planning links and information. On average, artonart.com contains over 2,000 statewide events.
 

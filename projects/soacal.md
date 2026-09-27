@@ -5,12 +5,9 @@ date: 2007-08-01
 pid: soacal
 tech: interface design, graphic design, PHP, HTML, CSS, Javascript (Yahoo! User Interface Library and Prototype), MySQL database design and development, site architecture
 shots:
- - img: soacal1.png
-   alt: Image 1
- - img: soacal2.png
-   alt: Image 2
- - img: soacal3.png
-   alt: Image 3
+  soacal1.png: Image 1
+  soacal2.png: Image 2
+  soacal3.png: Image 3
 ---
 The UTSOA Calendar lists all events for the current semester including public lectures, symposia, meetings, information sessions, and reviews. The calendar is used by the faculty, staff, and students within the School as well as alumni and other visitors interested in architecture and events at the School.
 

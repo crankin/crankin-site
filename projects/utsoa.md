@@ -5,24 +5,15 @@ date: 2006-09-01
 pid: utsoa
 tech: interface design, graphic design, PHP, HTML, CSS, Javascript, Flash/Actionscript, database design and development, site architecture, CodeIgnitor, ExpressionEngine, CakePHP
 shots:
- - img: 21.jpg
-   alt: Home
- - img: 18.jpg
-   alt: Home (menu option selected)
- - img: 15.jpg
-   alt: Program Page
- - img: 12.jpg
-   alt: enews Template
- - img: 09.jpg
-   alt: Architecure Center Page
- - img: utsoa-cal.jpg
-   alt: Event Calendar
- - img: reserve.png
-   alt: Reserve Equipment and Rooms
- - img: utsoa-editor1.png
-   alt: Site Editor
- - img: utsoa-editor2.png
-   alt: Page Editor
+  21.jpg: Home
+  18.jpg: Home (menu option selected)
+  15.jpg: Program Page
+  12.jpg: enews Template
+  09.jpg: Architecure Center Page
+  utsoa-cal.jpg: Event Calendar
+  reserve.png: Reserve Equipment and Rooms
+  utsoa-editor1.png: Site Editor
+  utsoa-editor2.png: Page Editor
 ---
 The web site of the University of Texas at Austin School of Architecture (UTSOA) serves the current students, faculty, and staff by providing information on the School's eight program areas in addition to current news, calendar items, course listings, and related University information. The site provides program information and contacts for prospective students. Sections of the site are also used by alumni for school news, events, and career guidance.
 

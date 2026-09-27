@@ -5,14 +5,10 @@ date: 2012-07-01
 pid: casa
 tech: WordPress, HTML, CSS, jQuery, PHP
 shots:
- - img: 01.jpg
-   alt: Home
- - img: 02.jpg
-   alt: About
- - img: 03.jpg
-   alt: Education
- - img: 04.jpg
-   alt: Education
+  01.jpg: Home
+  02.jpg: About
+  03.jpg: Education
+  04.jpg: Education
 ---
 The Casa Montessori website was a pro bono design and development project for a small Austin school that did not previously have an online presence. The staff at Casa wanted to provide the parents of potential students information about the school, its particular educational approach, and the Montessori philosophy.
 
